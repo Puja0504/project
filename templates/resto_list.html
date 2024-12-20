@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant List</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.restaurant-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px;
+}
+
+.restaurant {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.restaurant p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Restaurant List</h1>
+        <p>Explore the best dining options around you</p>
+    </header>
+
+    <section class="restaurant-list">
+        <div class="restaurant">
+            <h2>Italian Bistro</h2>
+            <p><strong>Type:</strong> Italian</p>
+            <p><strong>Description:</strong> A cozy Italian restaurant offering pizza, pasta, and more.</p>
+        </div>
+        <div class="restaurant">
+            <h2>Sushi House</h2>
+            <p><strong>Type:</strong> Japanese</p>
+            <p><strong>Description:</strong> Fresh sushi and sashimi served in a modern, sleek setting.</p>
+        </div>
+        <div class="restaurant">
+            <h2>Taco Fiesta</h2>
+            <p><strong>Type:</strong> Mexican</p>
+            <p><strong>Description:</strong> A fun spot for tacos, burritos, and margaritas.</p>
+        </div>
+        <div class="restaurant">
+            <h2>Vegan Delight</h2>
+            <p><strong>Type:</strong> Vegan</p>
+            <p><strong>Description:</strong> A plant-based menu full of fresh, healthy options.</p>
+        </div>
+        <div class="restaurant">
+            <h2>Steakhouse Grill</h2>
+            <p><strong>Type:</strong> American</p>
+            <p><strong>Description:</strong> A classic steakhouse with the finest cuts of meat.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Restaurant Guide</p>
+    </footer>
+</body>
+</html>
