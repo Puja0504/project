@@ -1,1 +1,2 @@
-requirements.txt
+Flask==2.3.3
+pymysql==1.0.3
